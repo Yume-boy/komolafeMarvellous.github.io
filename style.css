@@ -1,0 +1,282 @@
+/* body styles*/
+body {
+    background-color: #f3f3f3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* nav styles*/
+
+.top {
+    background-color: #eea302;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.nav-link p:hover {
+ color: #996b07;
+}
+
+
+/* hero styles*/
+
+.hero {
+    padding: 30px 5%;
+    height: 88vh;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#element {
+    font-size: 1.8rem;
+}
+
+.hero img {
+    border-radius: 350px;
+    
+}
+
+.hero h1 {
+    padding-top: 0px;
+}
+
+.hero h2 {
+    font-weight: 400;
+}
+.hero p {
+    font-weight: 100;
+}
+
+.resume {
+    width: 150px;
+    height: 150px;
+    background-color: #eea302;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.resume:hover {
+    background-color: #fff;
+    border: black solid 2px;
+}
+
+.contact {
+    width: 150px;
+    height: 150px;
+    background-color: #80d8da;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contact:hover {
+    background-color: #fff;
+    border: black solid 2px;
+}
+
+.projects {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.projects:hover {
+    background-color: #fff;
+    border: black solid 2px;
+}
+
+.resume p {
+    font-size: 1.5rem;
+}
+
+.contact p {
+    font-size: 1.5rem;
+}
+
+.projects p {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.peepee button {
+    width: 100px;
+    height: 100px;
+    background-color: #80d8da;
+    border: none;
+}
+
+
+
+.lol h5 {
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: black;
+    font-size: 20px;
+    background: #eea302;
+    padding: 50px 50px 50px 50px;
+    border: solid #000000 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #f3f3f3;
+    text-decoration: none;
+    border: solid #000000 2px;
+  }
+
+  footer {
+    height: 8vh;
+  }
+
+
+  @media (max-width: 540px) {
+    .resume {
+        width: 80px;
+        height: 80px;
+        background-color: #eea302;
+        padding-top: 30px;
+        text-align: center;
+    }
+    
+    .resume:hover {
+        background-color: #fff;
+        border: black solid 2px;
+    }
+    
+    .contact {
+        width: 80px;
+        height: 80px;
+        background-color: #80d8da;
+        padding-top: 30px;
+        text-align: center;
+    }
+    
+    .contact:hover {
+        background-color: #fff;
+        border: black solid 2px;
+    }
+    
+    .projects {
+        width: 80px;
+        height: 80px;
+        background-color: red;
+        padding-top: 30px;
+        text-align: center;
+    }
+    
+    .projects:hover {
+        background-color: #fff;
+        border: black solid 2px;
+    }
+
+    .resume p {
+        font-size: 1rem;
+    }
+    
+    .contact p {
+        font-size: 1rem;
+    }
+    
+    .projects p {
+        font-size: 1rem;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .hero {
+        padding: 30px 5%;
+        
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+  }
+
+  @media (max-width: 920px) {
+    .top {
+        display: none;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .top {
+        display: none;
+    }
+    .resume {
+        width: 100px;
+        height: 100px;
+        background-color: #eea302;
+        padding-top: 40px;
+        text-align: center;
+    }
+    
+    .resume:hover {
+        background-color: #fff;
+        border: black solid 2px;
+    }
+    
+    .contact {
+        width: 100px;
+        height: 100px;
+        background-color: #80d8da;
+        padding-top: 40px;
+        text-align: center;
+    }
+    
+    .contact:hover {
+        background-color: #fff;
+        border: black solid 2px;
+    }
+    
+    .projects {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        padding-top: 40px;
+        text-align: center;
+    }
+    
+    .projects:hover {
+        background-color: #fff;
+        border: black solid 2px;
+    }
+    
+    .resume p {
+        font-size: 1rem;
+    }
+    
+    .contact p {
+        font-size: 1rem;
+    }
+    
+    .projects p {
+        font-size: 1rem;
+    }
+
+    .hero {
+        padding: 70px 5%;
+    }
+  }
+
+ 
+
+  
